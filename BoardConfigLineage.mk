@@ -10,13 +10,12 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
     MKDTIMG=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/libufdt/mkdtimg
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CONFIG := lineageos_crosshatch_defconfig
+TARGET_KERNEL_CONFIG := arrow_crosshatch_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/msm-4.9
 
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
 # Manifests
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += device/google/crosshatch/lineage_compatibility_matrix.xml
 
 # vendor.img
 AB_OTA_PARTITIONS += vendor

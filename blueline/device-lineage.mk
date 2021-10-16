@@ -1,1 +1,1 @@
-$(call inherit-product, device/google/crosshatch/device-lineage.mk)
+$(call inherit-product, device/google/crosshatch/device-arrow.mk)

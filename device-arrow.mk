@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0.vendor
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/crosshatch/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/crosshatch/overlay-arrow
 
 # Parts
 PRODUCT_PACKAGES += \
@@ -68,7 +68,7 @@ PRODUCT_PACKAGES += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+    vendor.arrow.trust@1.0-service
 
 # Utilities
 PRODUCT_PACKAGES += \
